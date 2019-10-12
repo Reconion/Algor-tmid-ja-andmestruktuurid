@@ -35,6 +35,7 @@ public class kodu3 {
      * Prindib välja failipuu selliselt nagu faili päises kirjeldatud
      */
     private static void failipuu(String kaustVõiFail, int trepiAste) {
+        //Vaadeldav fail
         File file = new File(kaustVõiFail);
         //Koostame hetke sügavuse taande, mida ette panna
         String trepp = "\t".repeat(trepiAste);
