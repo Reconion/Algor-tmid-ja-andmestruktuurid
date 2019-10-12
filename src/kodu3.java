@@ -38,7 +38,7 @@ public class kodu3 {
         File file = new File(kaustVõiFail);
         //Koostame hetke sügavuse taande, mida ette panna
         String trepp = "\t".repeat(trepiAste);
-        //kontrollime kas tegu on kaustaga või mitte
+        //Kontrollime kas tegu on kaustaga või mitte
         if (file.isDirectory()) {
             System.out.println(trepp + "[" + file.getName() + "]");
             String[] failidKaustas = file.list();
