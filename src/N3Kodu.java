@@ -17,8 +17,8 @@ public class N3Kodu {
 
     private static double massiiviSumma(double[] massiiv) {
         double summa = 0;
-        for (int i = 0; i < massiiv.length; i++) {
-            summa += massiiv[i];
+        for (double v : massiiv) {
+            summa += v;
         }
         return summa;
     }
