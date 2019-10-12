@@ -34,7 +34,7 @@ public class kodu3 {
     /**
      * @param kaustVõiFail hetkel vaadeldav fail või kaust
      * @param trepiAste    Määrab mitme taanduse võrra treppida
-     *                     Prindib välja failipuu selliselt nagu faili päises kirjeldatud
+     * Prindib välja failipuu selliselt nagu faili päises kirjeldatud
      */
     private static void failipuu(String kaustVõiFail, int trepiAste) {
         File file = new File(kaustVõiFail);
