@@ -36,6 +36,7 @@ public class kodu3 {
      */
     private static void failipuu(String kaustVõiFail, int trepiAste) {
         File file = new File(kaustVõiFail);
+        //Koostame hetke sügavuse taande, mida ette panna
         String trepp = "\t".repeat(trepiAste);
         //kontrollime kas tegu on kaustaga või mitte
         if (file.isDirectory()) {
