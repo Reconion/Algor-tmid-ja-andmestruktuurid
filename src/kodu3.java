@@ -1,5 +1,3 @@
-import java.io.File;
-
 /*****************************************************************************
  * Algoritmid ja andmestruktuurid (MTAT.03.133)
  * 2019/2020 sügissemester
@@ -18,6 +16,9 @@ import java.io.File;
  *
  * Autor: Risto Luik
  *****************************************************************************/
+
+import java.io.File;
+
 public class kodu3 {
 
     /**
