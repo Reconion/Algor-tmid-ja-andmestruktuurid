@@ -20,12 +20,9 @@
 import java.io.File;
 
 public class kodu3 {
-
-    /**
-     * @param asukoht Failipuu algus
-     * @param maxFailisuurus Suurim lubatud faili suurus mille korral faili välja prindime
-     */
+    //Failipuu algus
     private static String asukoht = "C:\\Users\\Risto Luik\\Documents";
+    //Suurim lubatud faili suurus mille korral faili välja prindime
     private static int maxFailisuurus = 500000;
 
     public static void main(String[] args) {
