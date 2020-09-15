@@ -63,7 +63,7 @@ object N1_2_kodu {
     }
 
     /**
-     * Prindib CSV faili, et excelis graafikut teha
+     * Kirjutab CSV faili, et excelis graafikut teha
      * @param bubbleSortMap legend massivi pikksuest ja ajast, mis bubblesortil kulus, et seda sorteerida
      * @param mergeSortMap legend massiivi pikkusest ja ajast, mis mergesortil kulus, et seda sorteerida
      */
